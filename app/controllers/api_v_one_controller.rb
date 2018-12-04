@@ -1,5 +1,5 @@
 class ApiVOneController < ApplicationController
   def index
-    render plain: 'Welcome to the EventHawk API'
+    render plain: 'Welcome to the Hobnob'
   end
 end
