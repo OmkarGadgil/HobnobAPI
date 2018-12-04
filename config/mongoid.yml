@@ -3,12 +3,12 @@ development:
   clients:
     # Defines the default client. (required)
     default:
-      database: eventhawkapi
-      hosts: 
-        - ds051720.mlab.com:51720
+      database: hobnob
+      hosts:
+        - ds019268.mlab.com:19268
       options:
-        user: 'eventhawkapi'
-        password: 'Great4Data!'
+        user: 'omkar1234'
+        password: 'omkargadgil1234'
       # Change the default write concern. (default = { w: 1 })
         # write:
         #   w: 1
@@ -146,19 +146,19 @@ development:
 test:
   clients:
     default:
-      database: eventhawkapi
-      hosts: 
-        - ds051720.mlab.com:51720
+      database: hobnob
+      hosts:
+        - ds019268.mlab.com:19268
       options:
-        user: 'eventhawkapi'
-        password: 'Great4Data!'
-        
+        user: 'omkar1234'
+        password: 'omkargadgil1234'
+
 production:
   clients:
     default:
-      database: eventhawkapi
-      hosts: 
-        - ds051720.mlab.com:51720
+      database: hobnob
+      hosts:
+        - ds019268.mlab.com:19268
       options:
-        user: 'eventhawkapi'
-        password: 'Great4Data!'
+        user: 'omkar1234'
+        password: 'omkargadgil1234'
